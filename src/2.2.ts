@@ -1,13 +1,15 @@
 // アノテーション
-let a: number = 1
-let b: string = 'hello'
-let c: boolean[] = [true, false]
+let num1: number = 1
+let str1: string = 'hello'
+let array1: boolean[] = [true, false]
 
-console.log(a, b, c)
+// 1 hello [ true, false ]
+console.log(num1, str1, array1)
 
 // 型推論
-let d = 1
-let e = 'hello'
-let f = [true, false]
+let num2 = 1
+let str2 = 'hello'
+let array2 = [true, false]
 
-console.log(d, e, f)
+// 1 hello [ true, false ]
+console.log(num2, str2, array2)
