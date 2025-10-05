@@ -8,3 +8,5 @@ let b: true = true
 
 // false true
 console.log(a, b)
+
+export {}
